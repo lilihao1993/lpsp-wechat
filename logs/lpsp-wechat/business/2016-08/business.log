@@ -1,0 +1,45 @@
+2016-08-31 08:57:39.099  INFO 6488 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 6488 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 08:57:39.102  INFO 6488 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 08:57:44.484  INFO 6488 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 08:57:46.644  INFO 6488 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 7.984 seconds (JVM running for 8.733)
+2016-08-31 08:57:47.421  INFO 6488 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 09:38:50.397  INFO 1972 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 1972 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 09:38:50.400  INFO 1972 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 09:38:53.018  INFO 1972 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 09:38:54.520  INFO 1972 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 4.45 seconds (JVM running for 4.954)
+2016-08-31 09:38:55.112  INFO 1972 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 09:41:41.062  INFO 5888 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 5888 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 09:41:41.065  INFO 5888 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 09:41:43.800  INFO 5888 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 09:41:45.712  INFO 5888 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 4.992 seconds (JVM running for 6.383)
+2016-08-31 09:41:46.188  INFO 5888 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 09:43:19.382  INFO 7120 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 7120 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 09:43:19.384  INFO 7120 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 09:43:22.273  INFO 7120 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 09:43:24.276  INFO 7120 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 5.475 seconds (JVM running for 6.352)
+2016-08-31 09:43:24.862  INFO 7120 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 09:45:21.307  INFO 6556 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 6556 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 09:45:21.310  INFO 6556 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 09:45:23.997  INFO 6556 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 09:45:25.991  INFO 6556 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 5.226 seconds (JVM running for 5.808)
+2016-08-31 09:45:26.508  INFO 6556 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 09:53:10.441  INFO 5316 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 5316 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 09:53:10.444  INFO 5316 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 09:53:13.344  INFO 5316 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 09:53:15.196  INFO 5316 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 5.189 seconds (JVM running for 5.725)
+2016-08-31 09:53:15.719  INFO 5316 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 10:11:25.929  INFO 6812 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 6812 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 10:11:25.934  INFO 6812 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 10:11:29.487  INFO 6812 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 10:11:31.736  INFO 6812 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 6.274 seconds (JVM running for 6.778)
+2016-08-31 10:11:32.329  INFO 6812 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 10:13:35.136  INFO 5300 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 5300 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 10:13:35.139  INFO 5300 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 10:13:37.899  INFO 5300 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 10:13:39.798  INFO 5300 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 5.096 seconds (JVM running for 5.631)
+2016-08-31 10:13:40.324  INFO 5300 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！
+2016-08-31 10:15:00.954  INFO 8004 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Starting FrameworkSbootApplication on PC-20150522OBDC with PID 8004 (D:\work\lpsp-wechat\target\classes started by Administrator in D:\work\lpsp-wechat)
+2016-08-31 10:15:00.957  INFO 8004 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : No active profile set, falling back to default profiles: default
+2016-08-31 10:15:03.972  INFO 8004 --- [restartedMain] c.i.l.w.common.config.MyBatisConfig      : 注册MyBatis分页插件PageHelper
+2016-08-31 10:15:05.913  INFO 8004 --- [restartedMain] c.i.l.wechat.FrameworkSbootApplication   : Started FrameworkSbootApplication in 5.437 seconds (JVM running for 5.977)
+2016-08-31 10:15:06.411  INFO 8004 --- [pool-2-thread-1] c.i.lpsp.wechat.schedule.ScheduledTasks  : 微信access_token和js-sdk临时凭证刷新成功！

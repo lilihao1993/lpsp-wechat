@@ -16,6 +16,12 @@ public class MessageRouter {
     private static Map<String, Class> resolvers = new HashMap<String, Class>() {{
         // 文本消息
         put("text", TextMessageResolver.class);
+        //语音消息
+        put("voice",VoiceMessageResolver.class);
+        //视频
+        put("video",VideoMessageResolver.class);
+        //小视频消息
+        put("shortvideo",VideoMessageResolver.class);
         // 关注事件
         put("eventsubscribe", SubscribeEventResolver.class);
         // 取消关注事件
@@ -24,6 +30,8 @@ public class MessageRouter {
         put("eventCLICK", ClickEventResolver.class);
         //获取地理位置
         put("eventLOCATION", LocationEventResolver.class);
+
+
     }};
 
     /**
