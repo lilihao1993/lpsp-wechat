@@ -23,7 +23,23 @@ public class SubscribeEventResolver extends BaseResolver implements IResolver {
         TextMessage respMessage = new TextMessage();
         setBaseMessage(respMessage, message);
         respMessage.setMsgType(MESSAGE_TEXT);
+        //如果EventKey不为空则表示为带参数二维码关注事件
+        if (message.get("EventKey") != null){
+            parameter();
+            respMessage.setContent("您扫描的是带参数的二维码");
+            return XMLUtils.parseXml(respMessage);
+        }
+
         respMessage.setContent("当前为测试服务号，仅供测试人员使用，感谢您的关注！");
         return XMLUtils.parseXml(respMessage);
+    }
+
+    /**
+     * 描述：处理二维码关注事件
+     * @return
+     * @throws Exception
+     */
+    public String parameter()throws Exception{
+        return null;
     }
 }

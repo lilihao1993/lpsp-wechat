@@ -16,19 +16,25 @@ public class MessageRouter {
     private static Map<String, Class> resolvers = new HashMap<String, Class>() {{
         // 文本消息
         put("text", TextMessageResolver.class);
+        //图片消息
+        put("image", ImgMessageResolver.class);
         //语音消息
         put("voice",VoiceMessageResolver.class);
         //视频
-        put("video",VideoMessageResolver.class);
+        put("video",ShortVideoMessageResolver.class);
         //小视频消息
-        put("shortvideo",VideoMessageResolver.class);
-        // 关注事件
+        put("shortvideo",ShortVideoMessageResolver.class);
+        //获取地理位置
+        put("location", LocationMessageResolver.class);
+        // 扫描关注事件
         put("eventsubscribe", SubscribeEventResolver.class);
+        //扫描已关注带参数二维码
+        put("eventSCAN", ScanEventResolver.class);
         // 取消关注事件
         put("eventunsubscribe", UnSubscribeEventResolver.class);
         //测试点击事件
         put("eventCLICK", ClickEventResolver.class);
-        //获取地理位置
+        //自动获取获取地理位置
         put("eventLOCATION", LocationEventResolver.class);
 
 
