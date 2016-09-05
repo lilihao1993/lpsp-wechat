@@ -35,5 +35,12 @@ public abstract class BaseAPI {
             HttpHeaders.CONTENT_TYPE,
             ContentType.APPLICATION_XML.toString());
 
+    /**
+     * 字节流请求头
+     */
+    protected static Header streamHeader = new BasicHeader(
+            HttpHeaders.CONTENT_TYPE,
+            ContentType.APPLICATION_OCTET_STREAM.toString());
+
 
 }

@@ -2,10 +2,12 @@ package com.icinfo.lpsp.wechat;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.icinfo.lpsp.wechat.common.utils.ConfigUtils;
+import com.icinfo.lpsp.wechat.common.utils.WechatUploadUtil;
 import com.icinfo.lpsp.wechat.message.business.Dispatch;
 import com.icinfo.lpsp.wechat.message.business.dto.*;
 import com.icinfo.lpsp.wechat.token.Token;
 import com.icinfo.lpsp.wechat.token.TokenAPI;
+import com.icinfo.lpsp.wechat.token.TokenManager;
 import com.thoughtworks.xstream.XStream;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -28,13 +30,6 @@ import java.util.Set;
  */
 public class Test {
     public static void main(String[] args) throws Exception {
-        URL url = new URL("http://op.juhe.cn/onebox/weather/query?key=4303dc78d1a41e1058c70be70638f346&cityname=北京");
-        InputStream inputStream = url.openStream();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "utf-8"));
-        String json = reader.readLine();
-        ObjectMapper object = new ObjectMapper();
-        Map<Object,Object> map = object.readValue(json, Map.class);
-        WeatherResult str = (WeatherResult )map.get("result");
-        System.out.println(str.getData().getDate());
+        System.out.println(WechatUploadUtil.upload1(TokenManager.getToken().getAccess_token(), "F:\\test.jpeg", "image"));
     }
 }
