@@ -23,9 +23,9 @@ public class MassManager {
     public static void main(String[] args) throws Exception {
         String token = TokenManager.getToken().getAccess_token();
         //appid群发图文
-        massNews(token);
+//        massNews(token);
         //tag群发图文
-//        tagMassNews(token);
+        tagMassNews(token);
     }
 
     /**

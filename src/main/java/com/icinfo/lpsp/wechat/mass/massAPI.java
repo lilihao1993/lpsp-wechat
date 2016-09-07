@@ -1,6 +1,7 @@
 package com.icinfo.lpsp.wechat.mass;
 
 import com.icinfo.lpsp.wechat.base.BaseAPI;
+import com.icinfo.lpsp.wechat.base.BaseResult;
 import com.icinfo.lpsp.wechat.client.HttpClientExecutor;
 import com.icinfo.lpsp.wechat.common.utils.JSONUtils;
 import com.icinfo.lpsp.wechat.common.utils.WechatUploadUtil;
@@ -13,6 +14,7 @@ import org.apache.http.client.methods.RequestBuilder;
 import org.apache.http.entity.StringEntity;
 
 import java.nio.charset.Charset;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -87,5 +89,47 @@ public class MassAPI extends BaseAPI {
                 .setEntity(new StringEntity(JSONUtils.toJSONString(tagMassNews), Charset.forName("utf-8")))
                 .build();
         return HttpClientExecutor.executeJsonResult(httpUriRequest, MassResult.class);
+    }
+
+
+    /**
+     * 描述：删除群发
+     * @param access_token token
+     * @param msg_id  群发时返回的id
+     * @return
+     * @throws Exception
+     */
+    public static BaseResult delMass(String access_token,String msg_id)throws Exception{
+        Map<String,String> map = new HashMap();
+        map.put("msg_id",msg_id);
+        HttpUriRequest httpUriRequest = RequestBuilder.post()
+                .setHeader(jsonHeader)
+                .setUri(BASE_URI + "/cgi-bin/message/mass/delete")
+                .addParameter(PARAM_ACCESS_TOKEN, access_token)
+                .setEntity(new StringEntity(JSONUtils.toJSONString(map), Charset.forName("utf-8")))
+                .build();
+        return HttpClientExecutor.executeJsonResult(httpUriRequest, MassResult.class);
+    }
+
+    /**
+     * 描述：预览接口图文
+     * @param access_token token
+     * @param media_id 根据分组群发中的media_id相同  图文素材id
+     * @return
+     * @throws Exception
+     */
+    public static String previewNews(String access_token,String media_id)throws Exception{
+        Map<String,String> map = new HashMap();
+        Map<String,Object> map1 = new HashMap();
+        map1.put("media_id",media_id);
+        map.put("touser", "OPENID");
+        map.put("msgtype","mpnews");
+        HttpUriRequest httpUriRequest = RequestBuilder.post()
+                .setHeader(jsonHeader)
+                .setUri(BASE_URI + "/cgi-bin/message/mass/preview")
+                .addParameter(PARAM_ACCESS_TOKEN, access_token)
+                .setEntity(new StringEntity(JSONUtils.toJSONString(map), Charset.forName("utf-8")))
+                .build();
+        return HttpClientExecutor.executeJsonResult(httpUriRequest, String.class);
     }
 }
